@@ -17,10 +17,9 @@
 </template>
 
 <script>
-import TaskList from './TaskList.vue'
-// import tasklist from './tasklist.vue'
-// import TaskList from './Tasklist.vue'
-// import TaskList from './tasklist.vue'
+// import TaskList from './TaskList.vue'
+import TaskList from '../components/TaskList.vue'
+
 export default {
   name: 'PureInboxScreen',
   components: { TaskList },
