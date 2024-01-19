@@ -19,8 +19,10 @@ jobs:
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
+          workingDir: frontend
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/vue/en/deploy/ to obtain it
 
           #   projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          projectToken: chpt_1fe5796a647f06d
+          # projectToken: chpt_1fe5796a647f06d
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
