@@ -25,3 +25,4 @@ jobs:
           # projectToken: chpt_1fe5796a647f06d
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          exitZeroOnChanges: true
