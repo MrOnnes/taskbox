@@ -18,11 +18,11 @@
 
 <script>
 // import TaskList from './TaskList.vue'
-import TaskList from '../components/TaskList.vue'
+// import TaskList from '../components/TaskList.vue'
 
 export default {
   name: 'PureInboxScreen',
-  components: { TaskList },
+  // components: { TaskList },
   props: {
     error: { type: Boolean, default: false }
   }
